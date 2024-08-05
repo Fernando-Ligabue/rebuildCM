@@ -12,6 +12,7 @@
     -webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
     font-family: 'Lato', sans-serif;
+    font-display: swap;
     scroll-behavior: smooth;
 }
 

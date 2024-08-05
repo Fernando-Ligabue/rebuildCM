@@ -21,7 +21,7 @@ const Hero = () => {
     }, [])
 
     return (
-        <section id="home" className="w-full h-full bg-black flex flex-col justify-start items-center relative">
+        <section id="home" className="w-full h-screen bg-black flex flex-col justify-start items-center relative">
             <div className="w-full h-full">
                 <video className="pointer-events-none" loop autoPlay muted playsInline={true} key={videoSrc}>
                     <source src={videoSrc} type="video/mp4" />

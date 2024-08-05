@@ -5,10 +5,14 @@ import Projects from '@/components/Projects';
 import Team from '@/components/Team';
 import Clients from '@/components/Clients';
 import Contacts from '@/components/Contacts';
+import { Suspense } from 'react';
+import LoadingHero from '@/components/LoadingHero';
 const Root = () => {
     return (
         <>
-            <Hero />
+            <Suspense fallback={<LoadingHero />}>
+                <Hero />
+            </Suspense>
             <About />
             <Services />
             <Projects />
