@@ -70,7 +70,7 @@ const ContactForm = () => {
   
 
     try {
-      await axios.post("http://localhost:3333/send_email", {
+      await axios.post("https://private-sendemail.vercel.app/send_email", {
         name,
         email,
         phone,
@@ -104,7 +104,7 @@ const ContactForm = () => {
       <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500" className="text-4xl text-white font-light">
         Marcação de Reunião
       </h2>
-      <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1700" className="text-sm text-white font-light">
+      <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1700" className="text-sm text-white font-light text-center">
         A Creative Minds apenas presta serviços a empresas / profissionais
       </p>
       <div

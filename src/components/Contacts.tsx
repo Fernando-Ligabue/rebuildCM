@@ -5,7 +5,7 @@ const Contacts = () => {
   const [data] = contactContent;
 
   return (
-    <section id="contacts" className='bg-black w-full h-full p-28 pb-0 flex flex-col justify-center items-center'>
+    <section id="contacts" className='bg-black w-full h-full md:p-28 pb-0 flex flex-col justify-center items-center'>
       <h2
         data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
         className='text-4xl font-semibold text-white py-8'>CONTACTOS</h2>
