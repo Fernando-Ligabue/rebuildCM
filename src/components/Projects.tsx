@@ -67,7 +67,7 @@ const Projects = () => {
                                     <div className="relative w-full flex justify-center items-center">
                                         <ChevronLeft size={40} className="text-zinc-950 cursor-pointer absolute left-2" onClick={handlePrevImage} />
                                         <img src={mainImage} alt={openProject.title} className="w-full rounded-lg shadow-xl object-cover" />
-                                        <ChevronRight size={40} className="text-zinc-950 cursor-pointer absolute absolute right-2" onClick={handleNextImage} />
+                                        <ChevronRight size={40} className="text-zinc-950 cursor-pointer absolute right-2" onClick={handleNextImage} />
                                     </div>
                                     <div className='flex gap-1 mt-4 mb-2 overflow-x-auto'>
                                         {openProject.images.map((image, index) => (
