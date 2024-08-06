@@ -721,7 +721,7 @@ export const contactContent = [
         message: [
             {
                 id: 1,
-                message: "*Chamada para rede fixa nacional",
+                text: "*Chamada para rede fixa nacional",
             }
         ]
     }

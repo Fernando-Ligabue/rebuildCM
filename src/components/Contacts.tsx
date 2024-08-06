@@ -23,6 +23,9 @@ const Contacts = () => {
             <span className='w-full text-md text-white text-center font-light mt-5'>Tel: <a className='w-full text-md hover:text-white text-center font-light' href={`tel:${office.phone}`}> {office.phone}</a>*</span>
           </div>
         ))}
+        {data.message.map((message) => (
+          <div className='w-full flex justify-center items-center pt-5'><small className='text-white font-light'>{message.text}</small></div>
+        ))}
         <div className='w-full flex flex-col justify-center items-center cursor-pointer gap-1 mt-10'>
           {data.emails.map((email) => (
             <p key={email.id} className='w-full text-md text-white text-center font-light'>{email.setor}:

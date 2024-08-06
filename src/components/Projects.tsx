@@ -32,6 +32,10 @@ const Projects = () => {
         if (openProject && mainImage) {
             const currentIndex = openProject.images.indexOf(mainImage);
             const prevIndex = (currentIndex - 1) % openProject.images.length;
+            if (prevIndex < 0) {
+                setMainImage(openProject.images[openProject.images.length - 1]);
+                return;
+            }
             setMainImage(openProject.images[prevIndex]);
         }
     }
