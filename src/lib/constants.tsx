@@ -232,22 +232,6 @@ export const counter = [
 
 export const services = [
     {
-        title: "#CREATIVETHINKING",
-        subtitle: "DEPARTAMENTO DE CONSULTORIA EM COMUNICAÇÃO E MARKETING",
-        description: "Porque todas as soluções precisam de uma boa  estratégia de comunicação e marketing, a nossa equipa de  consultores irá acompanhar de forma ativa todas as vertentes do seu negócio.",
-        color: "#147686",
-        hoverColor: "#FFF",
-        url: "/departamento-de-consultoria"
-    },
-    {
-        title: "#CREATIVEIDEAS",
-        subtitle: "DEPARTAMENTO DE DESIGN",
-        description: "A nossa equipa de criativos está preparada para transformar sonhos em realidade. Seja branding, packaging, paginação ou merchandising, temos todas as soluções gráficas para a sua empresa.",
-        color: "#D9A236",
-        hoverColor: "#FFF",
-        url: "/departamento-de-design"
-    },
-    {
         title: "#CREATIVEVISION",
         subtitle: "DEPARTAMENTO DE MULTIMEDIA",
         description: "Desde a captação de imagens e vídeo, à linha de motion graphics, estamos prontos para entrar em cena.",
@@ -271,7 +255,23 @@ export const services = [
         hoverColor: "#FFF",
         url: "/departamento-de-performance"
     },
-
+    {
+        title: "#CREATIVETHINKING",
+        subtitle: "DEPARTAMENTO DE CONSULTORIA EM COMUNICAÇÃO E MARKETING",
+        description: "Porque todas as soluções precisam de uma boa  estratégia de comunicação e marketing, a nossa equipa de  consultores irá acompanhar de forma ativa todas as vertentes do seu negócio.",
+        color: "#147686",
+        hoverColor: "#FFF",
+        url: "/departamento-de-consultoria"
+    },
+    {
+        title: "#CREATIVEIDEAS",
+        subtitle: "DEPARTAMENTO DE DESIGN",
+        description: "A nossa equipa de criativos está preparada para transformar sonhos em realidade. Seja branding, packaging, paginação ou merchandising, temos todas as soluções gráficas para a sua empresa.",
+        color: "#D9A236",
+        hoverColor: "#FFF",
+        url: "/departamento-de-design"
+    },
+    
 ]
 
 export const projectsContent = [

@@ -10,7 +10,7 @@ const Services = () => {
         className='text-4xl font-semibold text-white py-8'>SERVIÇOS</h2>
       <div
         data-aos="fade-right" data-aos-delay="100" data-aos-duration="1800"
-        className="w-[100%] max-w-[950px] h-full mx-auto flex flex-wrap justify-center items-center gap-5 mt-12">
+        className="w-[100%] max-w-[950px] h-full mx-auto flex flex-wrap-reverse justify-center items-center gap-5 mt-12">
         {services.map((service, index) => {
           const backgroundColor = service.color;
           const hoverColor = service.hoverColor;
